@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://www.cvoleicabrils.com/sitemap.xml
