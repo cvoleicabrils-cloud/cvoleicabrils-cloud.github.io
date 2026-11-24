@@ -847,3 +847,24 @@ a{color:var(--red-dark)}
   .quick+.quick{border-top:2px solid var(--red)}
   .quick>.ico:first-child{width:42px;height:42px;padding:9px}
 }
+
+/* ---------- equips en resum (24-11-2026): sense llista d'equips ---------- */
+.teams-sum{max-width:860px}
+.teams-sum h2{font-size:clamp(1.8rem,3.4vw,2.6rem);margin:0 0 14px}
+.cat-chips{list-style:none;margin:26px 0 30px;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.cat-chips li{padding:9px 16px;border:2px solid var(--line);border-radius:999px;font-weight:700;color:var(--ink);background:#fff}
+.teams-btns{display:flex;flex-wrap:wrap;gap:12px}
+.also-grid{grid-template-columns:repeat(3,1fr)}
+@media (max-width:900px){ .also-grid{grid-template-columns:1fr} }
+
+/* ---------- notícies dels equips (24-11-2026): només surten si n'hi ha ---------- */
+.news-sec{background:var(--paper)}
+.news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px}
+.news-card{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.news-img{width:100%;aspect-ratio:3/2;height:auto;object-fit:cover;display:block}
+.news-body{padding:20px 22px 24px}
+.news-meta{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:0 0 10px;font-size:.9rem;color:var(--muted)}
+.news-team{padding:3px 10px;border-radius:999px;background:var(--red);color:#fff;font-weight:700}
+.news-card h3{font-size:1.25rem;line-height:1.25;margin:0 0 8px;color:var(--ink)}
+.news-card p:last-child{margin:0}
+.news-more{margin-top:28px}
